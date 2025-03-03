@@ -37,6 +37,13 @@ pacman -S mingw-w64-x86_64-openocd
 # 从官网获取安装包后，在 MSYS2 环境运行：
 # ./SetupSTM32CubeMX-6.9.0.exe
 
+# 检查编译器版本
+arm-none-eabi-gcc -v
+
+# 验证 OpenOCD 支持
+openocd -v
+openocd -f interface/stlink.cfg -f target/stm32f4x.cfg
+```
 ---
 
 
