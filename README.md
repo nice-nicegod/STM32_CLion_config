@@ -19,12 +19,27 @@
 
 ## 🔧 环境配置详解
 
-### 1. 工具链安装
-1. **ARM GCC 安装**  
-2. **OpenOCD 配置**  
-3. **STM32CubeMX 设置**
-###均可以使用msys2进行一步到位进行安装，具体参考视频教程
+### 1. 工具链安装 (MSYS2 集成方案)
+**推荐使用 MSYS2 一键式安装**，避免多平台工具混杂问题，操作流程如下：
+
+```bash
+# 1. 安装 MSYS2 (https://www.msys2.org/)
+# 2. 更新软件包数据库
+pacman -Syu
+
+# 3. 安装 ARM GCC 工具链
+pacman -S mingw-w64-x86_64-arm-none-eabi-gcc
+
+# 4. 安装 OpenOCD
+pacman -S mingw-w64-x86_64-openocd
+
+# 5. 安装 STM32CubeMX (需手动下载)
+# 从官网获取安装包后，在 MSYS2 环境运行：
+# ./SetupSTM32CubeMX-6.9.0.exe
+
 ---
+
+
 
 
 ## ⚡此模板已针对 **嘉立创天空星开发板** 优化配置，可直接用于实际项目开发。
