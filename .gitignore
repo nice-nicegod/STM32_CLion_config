@@ -1,0 +1,15 @@
+# 忽略编译产物
+*.elf
+*.bin
+*.hex
+*.map
+*.out
+*.axf
+*.log
+
+# 忽略 CubeMX 生成的项目文件
+*.mxproject
+*.cproject
+*.project
+*.ioc
+
