@@ -13,3 +13,5 @@
 *.project
 *.ioc
 
+/cmake-build-debug-mingw-_stm32_dev/
+.idea
