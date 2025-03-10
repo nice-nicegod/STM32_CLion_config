@@ -1,4 +1,4 @@
-# Install script for directory: S:/Source_files/stm32_hal/stm32_hal_config_template/stm32F407_demo_led
+# Install script for directory: S:/Source_files/stm32_hal/STM32F407_clion_config/stm32F407_demo_led
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -52,6 +52,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "S:/Source_files/stm32_hal/stm32_hal_config_template/stm32F407_demo_led/cmake-build-debug-mingw-_stm32_dev/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "S:/Source_files/stm32_hal/STM32F407_clion_config/stm32F407_demo_led/cmake-build-debug-mingw-_stm32_dev/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
