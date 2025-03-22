@@ -1,4 +1,4 @@
-"S:\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=S:/CLion 2024.3.4/bin/ninja/win/x64/ninja.exe" -DCMAKE_C_COMPILER=S:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=S:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-g++.exe -G Ninja -S S:\Source_files\stm32_hal\STM32F407_clion_config\stm32F407_demo_led -B S:\Source_files\stm32_hal\STM32F407_clion_config\stm32F407_demo_led\cmake-build-debug-mingw-_stm32_dev
+"S:\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=S:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=S:/Toolchain/arm-gnu-toolchain-14.2.rel1-mingw-w64-i686-arm-none-eabi/bin/arm-none-eabi-g++.exe -G "MinGW Makefiles" -S S:\Source_files\stm32_hal\STM32F407_clion_config\stm32F407_demo_led -B S:\Source_files\stm32_hal\STM32F407_clion_config\stm32F407_demo_led\cmake-build-debug-mingw-_stm32_dev
 -- The C compiler identification is GNU 14.2.1
 -- The CXX compiler identification is GNU 14.2.1
 -- The ASM compiler identification is GNU
@@ -14,6 +14,6 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Minimal optimization, debug info included
--- Configuring done (2.5s)
+-- Configuring done (3.1s)
 -- Generating done (0.1s)
 -- Build files have been written to: S:/Source_files/stm32_hal/STM32F407_clion_config/stm32F407_demo_led/cmake-build-debug-mingw-_stm32_dev
