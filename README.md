@@ -1,6 +1,7 @@
 # 📜 CLion + 嘉立创天空星开发板 (STM32F407VET6) 完整配置指南
 
 > 基于 B 站 UP 主 [0XBB8](https://space.bilibili.com/3493142393260061) 教程优化 | 适配 CLion 2024.3+
+> 现在已经更新了 STM32F103C8 开发板,并且 clion 正在 25.1 版本中支持原生 stlink，现在配置也已经上传
 
 ---
 
