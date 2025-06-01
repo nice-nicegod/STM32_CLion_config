@@ -74,7 +74,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
+  int test = 0;
   /* USER CODE END Init */
 
   /* Configure the system clock */
@@ -87,7 +87,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  int test = 0;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -95,8 +95,8 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-    HAL_GPIO_TogglePin(GPIOC,GPIO_PIN_13);
-    HAL_Delay(400);
+    HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);
+    HAL_Delay(300);
     test++;
     /* USER CODE BEGIN 3 */
   }
